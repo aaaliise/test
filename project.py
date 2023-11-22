@@ -37,6 +37,7 @@ class Suffle(QWidget):
         for i in d1:
             s += i + '\n'
         self.text_field.setPlainText(s)
+        print('hj')
         f.close()
 
 
